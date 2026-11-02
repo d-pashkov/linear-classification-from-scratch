@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "ridge_l2": 0.001,
+  "gd_params": {
+    "loss": "logistic",
+    "l1": 0.0,
+    "l2": 0.0,
+    "learning_rate": 0.005,
+    "n_iter": 2000
+  },
+  "ridge_cv_accuracy": 0.9582417582417582,
+  "gd_cv_accuracy": 0.9780219780219781,
+  "ridge_test_accuracy": 0.956140350877193,
+  "gd_test_accuracy": 0.9824561403508771,
+  "repeat_gd_mean": 0.968421052631579,
+  "repeat_ridge_mean": 0.9649122807017545,
+  "path_stable_count": 30,
+  "verification": {
+    "max_gradient_error": 1.4928444591610912e-10,
+    "ridge_relative_residual": 8.131526062823811e-17,
+    "checks": "passed"
+  },
+  "path_verification": {
+    "known_l1_optimum_gap": 0.0,
+    "checks": "passed"
+  }
+}
